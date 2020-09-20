@@ -1,0 +1,56 @@
+/* unvisited link */
+a:link {
+  color: #ff9a76;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+body{
+background-color: #fbecec;
+
+}
+
+/* border: 5px solid #aa4a30;   background-color: #fff0e1;*/
+/*center class for table*/
+.center{
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+hr{
+background-color: #fbecec;
+border-color: #440047;
+border-style: dotted;
+border-width: 2px;
+width: 80%;
+}
+h1,h2 ,h3 {
+  color:#61507f;
+  font-family: "League Spartan Bold";
+}
+/*img{
+  background-color: white;
+}*/
+.Circular {
+border-radius : 100%;
+}
+.swimming{
+  background-color: white;
+}
+img:hover{
+  background-color: #a37eba;
+}

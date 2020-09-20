@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me </title>
+  <link rel="stylesheet" href="css\styles.css">
+  <style>
+
+    body {
+      text-align: center;
+    }
+    fieldset {
+      width: 50%;
+      margin-left: 400px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <img src="images\contact_me.png" alt="Salma" width="500" align="center">
+  <h2>Hello!!&#128522; </h2>
+  <p>
+    &nbsp; &nbsp; &nbsp;
+    <b> Get in touch If you have any questions, please feel free to drop me and my email.<br />
+      I'll be glad to answer your questions.</b>
+  </p>
+
+  <form class="" action="mailto:salma.algamdi1@gmail.com" method="post" enctype="text/plain">
+    <fieldset>
+      <legend>
+        <h3>CONTACT ME</h3>
+      </legend><br />
+      First name: <input type="text" name="firstName"><br /><br />
+      Last name: <input type="text" name="lastName"><br /><br />
+      Telephone:<input type="number" name="phone"><br /><br />
+      Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email"><br /><br />
+
+      Gender: &nbsp; <input type="radio" name="gender" value="female" checked> Female
+      <input type="radio" name="gender" value="male"> Male <br /><br />
+
+      What do you want me to help you?: <input list="help" type="text" name="" value="">
+      <datalist id="help">
+        <option value="Teaching Lectures"></option>
+        <option value="Solving Project"></option>
+      </datalist> <br /><br />
+
+      If you need help by contacting you, please choose the time and date convenient for you:
+      <br /><br />
+      Date: <input type="date" name="day"> <br /><br />
+      Time: <input type="time" name="time"> <br /><br />
+      How much it is EMERGENCY?? &nbsp;<input type="range" name="points" min="0" max="10"> <br /><br />
+      Your Message:<br /><br />
+      <textarea name="message" rows="10" cols="85"></textarea> <br /><br />
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <input type="submit" value="Submit"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <input type="reset"> <br /><br />
+    </fieldset>
+  </form>
+  <br /><br />
+  <a href="index.html"> Back To Home Page </a><br /><br />
+</body>
+
+</html>
